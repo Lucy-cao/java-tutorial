@@ -28,7 +28,7 @@ public class Anagram {
     public static String getAllLetters(String str) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < str.length(); i++) {
-            if (Character.isLetter(str.charAt(i))) {
+            if (Character.isLetter(str.charAt(i))) {//判断是否是字母
                 sb.append(str.charAt(i));
             }
         }
